@@ -23,3 +23,4 @@ There are following proramming languages pactised:
 - ORM
 - Restful Api
 - Authentication & Authorization
+- CI/CD pipelines
