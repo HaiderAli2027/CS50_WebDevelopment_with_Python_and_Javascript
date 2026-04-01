@@ -10,3 +10,7 @@ There are following proramming languages pactised:
 - JAVASCRIPT
 - PYTHON
 - SQL
+## FramWorks:
+- django
+- tailwind
+- react
