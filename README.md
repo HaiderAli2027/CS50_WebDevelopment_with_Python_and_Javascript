@@ -25,3 +25,4 @@ There are following proramming languages pactised:
 - Authentication & Authorization
 - CI/CD pipelines
 - Testing (Test driven development)
+- Scalability and Security
