@@ -26,3 +26,7 @@ There are following proramming languages pactised:
 - CI/CD pipelines
 - Testing (Test driven development)
 - Scalability and Security
+
+## Practice:
+
+- creating apps in django and managing users and their data
