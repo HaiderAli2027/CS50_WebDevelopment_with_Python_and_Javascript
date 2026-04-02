@@ -30,3 +30,5 @@ There are following proramming languages pactised:
 ## Practice:
 
 - creating apps in django and managing users and their data
+- Create test cases to test functionalities.
+
