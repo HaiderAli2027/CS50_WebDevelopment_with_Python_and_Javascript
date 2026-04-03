@@ -1,5 +1,5 @@
 from django.http import HttpResponseRedirect
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .models import Flight, Passenger
 from django.urls import reverse
 
@@ -10,7 +10,7 @@ def index(request):
     })
 
 def flight(request, flight_id):
-    flight = Flight.objects.get(id=flight_id)
+    flight = get_object_or_404(Flight, id=flight_id)
     # print(flight.passengers.all())
     
     return render(request, "flights/flight.html",{
@@ -21,7 +21,7 @@ def flight(request, flight_id):
 
 def book(request, flight_id):
     if request.method == "POST":
-        flight = Flight.objects.get(pk=flight_id)
+        flight = get_object_or_404(Flight, pk=flight_id)
         passenger = Passenger.objects.get(pk=int(request.POST["passenger"]))
         passenger.flight.add(flight)
         return HttpResponseRedirect(reverse("flight", args=(flight.id,)))
