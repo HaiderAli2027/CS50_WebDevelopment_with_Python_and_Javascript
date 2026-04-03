@@ -6,7 +6,7 @@ from .models import Airport, Flight, Passenger
 
 class FlightTestCase(TestCase):
 
-    def setup(self):
+    def setUp(self):
 
         # create airports.
         a1 = Airport.objects.create(code="AAA", city="City A")
@@ -15,7 +15,7 @@ class FlightTestCase(TestCase):
         # create flights
         Flight.objects.create(origin=a1, destination=a2, duration=100)
         Flight.objects.create(origin=a1, destination=a1, duration=200)
-        Flight.objects.create(origin=a1, destination=a2, duration=100)
+        Flight.objects.create(origin=a1, destination=a2, duration=-100)
 
     def test_departure_count(self):
         a = Airport.objects.get(code="AAA")
