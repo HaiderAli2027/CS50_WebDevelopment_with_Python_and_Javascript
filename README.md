@@ -1,34 +1,50 @@
-# CS50 Web Development Using Javascript & Python
+# CS50 Web Development Using JavaScript & Python
 
-In this Course i have leant the basics of web development, from the structuring a web page to styling different elements, and making the actions responsive, then using the component base architecture, to handling the user requests, managing user data, maintaining databases, controlling access of users, authenticating users data or users behaviour, now i an on the testing phase where i have learnt the test driven development approach, unittesting, and django test modules.
+## Overview
 
-## Languages:
+This repository documents my learning journey through CS50's Web Development course. I've progressed from foundational web design principles to full-stack application development, with a current focus on testing and quality assurance.
 
-There are following proramming languages pactised:
+### Learning Path
+
+Throughout this course, I have gained expertise in:
+
+- **Structuring** semantic and accessible web pages
+- **Styling** responsive interfaces with modern CSS frameworks
+- **Client-side interactions** with dynamic JavaScript
+- **Component-based architecture** for scalable UI development
+- **Backend development** for handling requests and managing application logic
+- **Database design** and management with ORMs
+- **User authentication & authorization** systems
+- **Testing strategies** including Test-Driven Development (TDD), unit testing, and Django test modules
+
+## Languages & Technologies
+
+### Languages
 
 - HTML
 - CSS
-- JAVASCRIPT
-- PYTHON
+- JavaScript
+- Python
 - SQL
 
-## FramWorks:
+### Frameworks & Tools
 
-- django
-- tailwind
-- react
+- Django
+- Tailwind CSS
+- React
 
-## Concepts:
+## Key Concepts
 
-- ORM
-- Restful Api
+- Object-Relational Mapping (ORM)
+- RESTful API Design
 - Authentication & Authorization
-- CI/CD pipelines
-- Testing (Test driven development)
-- Scalability and Security
+- CI/CD Pipelines
+- Testing (Test-Driven Development)
+- Scalability & Security
 
-## Practice:
+## Project Experience
 
-- creating apps in django and managing users and their data
-- Create test cases to test functionalities.
-
+- Designed and developed Django applications with multi-user functionality
+- Implemented comprehensive user data management and persistence
+- Created automated test suites to ensure code reliability and functionality
+- Applied testing best practices throughout the development lifecycle
