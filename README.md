@@ -48,3 +48,5 @@ Throughout this course, I have gained expertise in:
 - Implemented comprehensive user data management and persistence
 - Created automated test suites to ensure code reliability and functionality
 - Applied testing best practices throughout the development lifecycle
+
+|  
