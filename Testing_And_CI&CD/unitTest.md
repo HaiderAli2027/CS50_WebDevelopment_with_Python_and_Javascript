@@ -26,6 +26,16 @@ unittest is Python’s built-in testing framework, inspired by Java’s JUnit.
 - Must start with test\_
 - Each method tests one behavior
 
+There are following unittest methods:
+
+- assertEqual
+- assertNotEqual
+- assertTrue
+- assertFalse
+- assertIn
+- assertNotIn
+- ...
+
 ### 3. Test Runner
 
 - Runs tests and shows results
