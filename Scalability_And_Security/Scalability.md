@@ -39,3 +39,11 @@
 
 - Multi-primary Replication
   ![alt text](image-2.png)
+
+## Caching
+
+- Client-side caching
+- Django Caching framework
+  > Per view caching
+  > django fragment caching
+  > low-level caching API
