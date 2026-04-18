@@ -1,6 +1,8 @@
 # Django Class-Based Views (CBVs)
 
-In Django, views can be written as Python functions (**Function-Based Views**) or as Python classes (**Class-Based Views**). While FBVs are excellent for learning the fundamentals, **Class-Based Views (CBVs)** allow you to write significantly less code by leveraging object-oriented programming (inheritance) and pre-built logic for common web development tasks.
+In Django, views can be written as Python functions (**Function-Based Views**) or as Python classes (**Class-Based Views**):
+- FBVs are excellent for learning the fundamentals
+- **Class-Based Views (CBVs)** allow to write significantly less code by leveraging object-oriented programming (inheritance) and pre-built logic for common web development tasks.
 
 ---
 
@@ -11,7 +13,7 @@ Using classes for views offers several structural advantages:
 - **DRY (Don't Repeat Yourself):** Django provides "Generic" views that handle common patterns—like listing items from a database or deleting an object—so you don't have to rewrite that logic every time.
 - **Better Organization:** In a function-based view, you usually handle different HTTP methods (GET, POST, etc.) using `if` statements. In a CBV, these are handled by specific class methods (e.g., `get()` or `post()`), making the code much cleaner.
 - **Inheritance:** You can create a "Base" view with shared logic (like login requirements) and have other views inherit from it.
-
+- 
 ---
 
 ## 2. Common Built-in Generic CBVs
