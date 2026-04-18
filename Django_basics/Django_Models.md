@@ -1,6 +1,7 @@
 # Django Models: The Database Blueprint
 
-A **Model** is the single, definitive source of truth about your data. It contains the essential fields and behaviors of the data you’re storing. In Django, models act as an abstraction layer (ORM) between your Python code and the SQL database.
+A **Model** is the single, definitive source of truth about your data. It contains the essential fields and behaviors of the data you are storing. 
+- In Django, models act as an **abstraction layer (ORM)** between your Python code and the SQL database.
 
 ### 1. The Power of the ORM (Object-Relational Mapper)
 
