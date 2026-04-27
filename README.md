@@ -44,9 +44,7 @@ Throughout this course, I have gained expertise in:
 
 ## Project Experience
 
-- Designed and developed Django applications with multi-user functionality
+- Designed & developed Django applications with multi-user functionality
 - Implemented comprehensive user data management and persistence
-- Created automated test suites to ensure code reliability and functionality
+- Created automated test suites to ensure code reliability & functionality
 - Applied testing best practices throughout the development lifecycle
-
-|  
