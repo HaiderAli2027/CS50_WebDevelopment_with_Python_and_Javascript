@@ -1,4 +1,4 @@
-# React — Core Concepts Reference
+# React Core Concepts Reference
 
 ---
 
@@ -53,7 +53,7 @@ Diff old VDOM vs new VDOM  ←— React Fiber does this
 Patch only changed nodes in real DOM
 ```
 
-**Why it's fast:** Real DOM manipulation is expensive. React batches and minimizes it.
+**Why it's fast:** Real DOM manipulation is expensive. React batches & minimizes it.
 
 ---
 
