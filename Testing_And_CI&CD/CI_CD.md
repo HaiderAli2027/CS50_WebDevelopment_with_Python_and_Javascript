@@ -1,6 +1,6 @@
 ## Continuous Integration
 
-- Frequent merges to main branch
+- Frequently merges code to main branch
 - Automated unit testing
 
 ## Continuous Delivery
