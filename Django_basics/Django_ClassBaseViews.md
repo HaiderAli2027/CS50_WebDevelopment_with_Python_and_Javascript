@@ -8,7 +8,7 @@ In Django, views can be written as Python functions (**Function-Based Views**) o
 
 ## 1. Why Use CBVs?
 
-Using classes for views offers several structural advantages:
+Using classes for views offers several structural advantages and best practises of coding:
 
 - **DRY (Don't Repeat Yourself):** Django provides "Generic" views that handle common patterns—like listing items from a database or deleting an object—so you don't have to rewrite that logic every time.
 - **Better Organization:** In a function-based view, you usually handle different HTTP methods (GET, POST, etc.) using `if` statements. In a CBV, these are handled by specific class methods (e.g., `get()` or `post()`), making the code much cleaner.
